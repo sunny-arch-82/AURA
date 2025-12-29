@@ -1,0 +1,36 @@
+# Secrets
+.env
+*.key
+
+# Python environments (never push)
+venv/
+.venv/
+env/
+ai/
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs / runtime
+logs/
+*.log
+outputs/
+runs/
+cache/
+tmp/
+
+# Large model artifacts (optional safety)
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx

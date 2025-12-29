@@ -1,0 +1,2 @@
+AURA test document.
+This verifies that the RAG pipeline works.
